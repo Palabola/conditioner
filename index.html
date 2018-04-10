@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>    
+<!-- Jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Squel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/squel/5.12.1/squel.min.js"></script>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+<!-- Condition -->
+<script src="condition_constant.js"></script>
+<script src="condition_generator.js"></script>
+<script src="condition_logic.js"></script>
+<link rel="stylesheet" href="style.css" >
+
+</head>
+<body>
+<div class="container">
+<br>
+
+        <div class="row">
+            <div class="col-md-4">
+                <script>
+                    document.write(generate_dropdown(app.condition.source_type.name,'source'));
+                   // $('.selectpicker').selectpicker('refresh');
+                </script>
+            </div>
+          </div>
+          <br>
+          <div class="form-group row">
+            <div class="col-xs-3">
+              <label for="ex1">SourceGroup</label>
+              <input class="form-control" id="ex1" type="text" value="0">
+            </div>
+            <div class="col-xs-3">
+              <label for="ex2">SourceEntry</label>
+              <input class="form-control" id="ex2" type="text" value="0">
+            </div>
+            <div class="col-xs-3">
+              <label for="ex3">SourceId</label>
+              <input class="form-control" id="ex3" type="text" value="0">
+            </div>
+          </div>  
+
+
+    <div class="row">
+            <div class="col-md-4">
+                <script>
+                    document.write(generate_dropdown(app.condition.Reference_type.name,'reference'));
+                   // $('.selectpicker').selectpicker('refresh');
+                </script>
+            </div>
+          </div>
+          <br>
+          <div class="form-group row">
+            <div class="col-xs-3">
+              <label for="ex5">ConditionValue1</label>
+              <input class="form-control" id="ex5" type="text"  value="0">
+            </div>
+            <div class="col-xs-3">
+              <label for="ex6">ConditionValue2</label>
+              <input class="form-control" id="ex6" type="text" value="0">
+            </div>
+            <div class="col-xs-3">
+                    <label for="ex7">ConditionValue3</label>
+                    <input class="form-control" id="ex7" type="text" value="0">
+            </div>
+                  <div class="col-xs-3">
+                        <label for="ex4">ConditionTarget</label>
+                        <input class="form-control" id="ex4" type="text" value="0">
+                      </div>     
+          </div>  
+
+
+    <div class="row">
+          <div class="form-group row">
+            <div class="col-xs-2">
+                        <label for="ex8">ElseGroup</label>
+                        <input class="form-control" id="ex8" type="text" value="0">
+            </div>  
+            <div class="col-xs-2">
+              <label for="ex9">NegativeCondition</label>
+              <input class="form-control" id="ex9" type="text" value="0">
+            </div>
+            <div class="col-xs-2">
+              <label for="ex10">ErrorType</label>
+              <input class="form-control" id="ex10" type="text" value="0">
+            </div>
+            <div class="col-xs-2">
+                    <label for="ex11">ErrorTextId</label>
+                    <input class="form-control" id="ex11" type="text" value="0">
+            </div>
+           <div class="col-xs-2">
+                        <label for="ex12">ScriptName</label>
+                        <input class="form-control" id="ex12" type="text" value="0">
+                      </div>     
+           
+          <div class="col-xs-12">
+                <label for="ex13">Comment</label>
+                <input class="form-control" id="ex13" type="text" value="">
+              </div>  
+            </div>         
+    </div> 
+
+    </div>
+
+    <div class="row">
+            <div class="col-md-3"></div> 
+            <div class="col-md-6">
+                    <div class="form-group">
+                            <label for="comment">SQL script:</label>
+                            <textarea class="form-control" rows="10" id="comment"></textarea>
+                    </div> 
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
