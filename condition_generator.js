@@ -77,7 +77,7 @@ function generate_sql()
        // );
 
             if(sourcetype == 26 && app.condition.generated_relatives == 1) // PHASE
-                generated_relatives = source_PHASE(sourcetype,SourceEntry,referencetype);
+                generated_relatives = source_PHASE(SourceGroup,SourceEntry,referencetype);
 
 
 
