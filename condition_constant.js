@@ -103,13 +103,13 @@
     app.condition.Reference_type.name[7]  = "CONDITION_SKILL";
     app.condition.Reference_type.name[47] = "CONDITION_QUESTSTATE";
     app.condition.Reference_type.name[48] = "CONDITION_QUEST_OBJECTIVE_COMPLETE";
-    app.condition.Reference_type.name[8]  = "CONDITION_QUESTREWARDED";
-    app.condition.Reference_type.name[9]  = "CONDITION_QUESTTAKEN";
+    // app.condition.Reference_type.name[8]  = "CONDITION_QUESTREWARDED";
+    // app.condition.Reference_type.name[9]  = "CONDITION_QUESTTAKEN";
     app.condition.Reference_type.name[10] = "CONDITION_DRUNKENSTATE";
     app.condition.Reference_type.name[11] = "CONDITION_WORLD_STATE";
     app.condition.Reference_type.name[12] = "CONDITION_ACTIVE_EVENT";
     app.condition.Reference_type.name[13] = "CONDITION_INSTANCE_INFO";
-    app.condition.Reference_type.name[14] = "CONDITION_QUEST_NONE";
+    // app.condition.Reference_type.name[14] = "CONDITION_QUEST_NONE";
     app.condition.Reference_type.name[15] = "CONDITION_CLASS";
     app.condition.Reference_type.name[16] = "CONDITION_RACE";
     app.condition.Reference_type.name[17] = "CONDITION_ACHIEVEMENT";
@@ -123,7 +123,7 @@
     app.condition.Reference_type.name[25] = "CONDITION_SPELL";
     app.condition.Reference_type.name[26] = "CONDITION_PHASEMASK";
     app.condition.Reference_type.name[27] = "CONDITION_LEVEL";
-    app.condition.Reference_type.name[28] = "CONDITION_QUEST_COMPLETE";
+    // app.condition.Reference_type.name[28] = "CONDITION_QUEST_COMPLETE";
     app.condition.Reference_type.name[29] = "CONDITION_NEAR_CREATURE";
     app.condition.Reference_type.name[30] = "CONDITION_NEAR_GAMEOBJECT";
     app.condition.Reference_type.name[31] = "CONDITION_OBJECT_ENTRY_GUID";
