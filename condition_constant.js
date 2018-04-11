@@ -1,6 +1,10 @@
     app = [];
 
+   
     app.condition             = [];
+
+    app.condition.generated_relatives = 1; // Generate connected tables for speeding up development.
+
     app.condition.source_type = [];
     app.condition.Reference_type  = [];
     app.condition.target_type = [];
