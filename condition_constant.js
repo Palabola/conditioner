@@ -522,6 +522,7 @@
     app.condition.Reference_type.param2[1]  = "Effect Index";
     app.condition.Reference_type.param2[2]  = "Item count";
     app.condition.Reference_type.param2[5]  = "RankMask: 1 = Hated,   2 = Hostile";
+    app.condition.Reference_type.param2[7]  = "Minimum skill value >=";
     
     app.condition.Reference_type.param2[11] = "World State value";
 
