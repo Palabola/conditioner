@@ -482,7 +482,7 @@
     app.condition.Reference_type.param1[13] = "entry";
     app.condition.Reference_type.param1[14] = "Quest ID";
     app.condition.Reference_type.param1[15] = "Class mask";
-    app.condition.Reference_type.param1[16] = "Race ID";
+    app.condition.Reference_type.param1[16] = "Race mask";
     app.condition.Reference_type.param1[17] = "Achievement ID";
     app.condition.Reference_type.param1[18] = "Title id";
     app.condition.Reference_type.param1[19] = "Swapnmask";
