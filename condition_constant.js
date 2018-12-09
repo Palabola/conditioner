@@ -497,7 +497,7 @@
     app.condition.Reference_type.param1[28] = "QuestID";
     app.condition.Reference_type.param1[29] = "Creature entry";
     app.condition.Reference_type.param1[30] = "Gameobject entry";
-    app.condition.Reference_type.param1[31] = "3 : UNIT 4 : PLAYER 5 : GAMEOBJECT 7 : CORPSE";
+    app.condition.Reference_type.param1[31] = "5 : UNIT 6 : PLAYER 8 : GAMEOBJECT 10 : CORPSE";
     app.condition.Reference_type.param1[32] = "8 : Unit, 16 Player, 32 Gameobject, 128 corpse";
     app.condition.Reference_type.param1[33] = "SourceType";
     app.condition.Reference_type.param1[34] = "SourceType";
